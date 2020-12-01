@@ -6,7 +6,9 @@
   "license": "MIT",
   "engines": {
     "node": "12.x"
-  }
+  },
+  "npm": "6.x",
+  "yarn": "1.x",
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\"",
     "format:check": "prettier --list-different \"src/**/*{.ts,.scss,.html}\"",
