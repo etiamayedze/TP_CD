@@ -4,11 +4,6 @@
   "description": "a boilerplate for my projects",
   "author": "Nicolas Beaussart <nic.beaussart@gmail.com>",
   "license": "MIT",
-  "engines": {
-    "node": "10.23.0"
-  },
-  "npm": "6.x",
-  "yarn": "1.x",
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\"",
     "format:check": "prettier --list-different \"src/**/*{.ts,.scss,.html}\"",
