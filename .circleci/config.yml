@@ -124,7 +124,7 @@ jobs:
           command: git push https://heroku:02467a97-3871-4afd-95ab-2b1a1c190165@git.heroku.com/vast-castle-45685.git HEAD:main
       - run:
           name: Smoke Test
-          command: ./test.sh
+          command: bash ./test.sh
 
 workflows:
   version: 2
